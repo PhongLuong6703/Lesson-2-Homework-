@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <h1>Session 2: Next-gen Javascript</h1>
+    <button class="Btn">Click To See My Answers</button>
+    <div>
+        <form>
+            <div>
+                <span style="font-weight:bold;">Câu 1:</span> <code class="shortCode">var</code> khai báo một biến có
+                phạm vi trong block?
+            </div>
+            <input type="radio" id="1" name="ques_1">
+            <label for="1">True</label><br>
+            <input class="True" type="radio" id="2" name="ques_1">
+            <label for="2">False</label><br>
+        </form>
+        <br />
+        <form>
+            <div>
+                <span style="font-weight:bold;">Câu 2:</span> <code class="shortCode">const</code> khai báo một biến có
+                phạm vi trong block?
+            </div>
+            <input class="True" type="radio" id="3" name="ques_2">
+            <label for="3">True</label><br>
+            <input type="radio" id="4" name="ques_2">
+            <label for="4">False</label><br>
+        </form>
+        <br />
+        <form>
+            <div>
+                <span style="font-weight:bold;">Câu 3:</span> <code class="shortCode">let</code> khai báo một biến có
+                phạm vi trong block?
+            </div>
+            <input class="True" type="radio" id="5" name="ques_3">
+            <label for="5">True</label><br>
+            <input type="radio" id="6" name="ques_3">
+            <label for="6">False</label><br>
+        </form>
+        <br />
+        <form>
+            <div>
+                <span style="font-weight:bold;">Câu 4:</span> Giá trị sau cùng của <code class="shortCode">obj</code>
+                trong ví dụ sau là gì?
+                <br />
+                <pre class="longCode">
+                    <div style="margin-left: -100px; margin-top: 10px;">
+                    <span style="color:blue">const</span> obj = { foo: <span style="color:crimson">1</span> }
+                    obj.bar = <span style="color:crimson">2</span>
+                    </div>
+                </pre>
+            </div>
+            <input type="radio" id="7" name="ques_4">
+            <label for="7"><code class="shortCode">{foo: 1}</code></label><br>
+            <input type="radio" id="8" name="ques_4">
+            <label for="8"><code class="shortCode">Error</code></label><br>
+            <input class="True" type="radio" id="9" name="ques_4">
+            <label for="9"><code class="shortCode">{foo: 1, bar: 2}</code></label><br>
+            <input type="radio" id="10" name="ques_4">
+            <label for="10"><code class="shortCode">{foo: 1, 2: bar}</code></label><br>
+        </form>
+        <br />
+        <form>
+            <div>
+                <span style="font-weight:bold;">Câu 5:</span> Kết quả của ví dụ sau đây là gì?
+                <pre class="longCode">
+                    <div style="margin-left: -100px; margin-top: 10px;">
+                    <span style="color:blue">const</span> speed = <span style="color:#690">'quick'</span>
+                    <span style="color:#690">`The <span style="color:gray">${</span>speed<span style="color:gray">}</span> brown fox jumps over the lazy dog.`</span>
+                    </div>
+                </pre>
+            </div>
+            <input type="radio" id="11" name="ques_5">
+            <label for="11"><code class="shortCode">TypeError</code></label><br>
+            <input type="radio" id="12" name="ques_5">
+            <label for="12"><code class="shortCode">SyntaxError</code></label><br>
+            <input type="radio" id="13" name="ques_5">
+            <label for="13">'The speed brown fox jumps over the lazy dog.’</label><br>
+            <input class="True" type="radio" id="6" name="ques_5">
+            <label for="14">'The quick brown fox jumps over the lazy dog.’</label><br>
+        </form>
+        <br />
+        <form>
+            <div>
+                <span style="font-weight:bold;">Câu 6:</span> Giá trị của câu lệnh <code
+                    class="shortCode">obj[123]</code>
+                trong ví dụ sau:
+                <br />
+                <pre class="longCode">
+                    <div style="margin-left: -100px; margin-top: 10px;">
+                    <span style="color:blue">const</span> obj = {
+
+                    }
+                    </div>
+                </pre>
+            </div>
+            <input class="True" type="radio" id="15" name="ques_6">
+            <label for="15"><code class="shortCode">undefined</code></label><br>
+            <input type="radio" id="16" name="ques_6">
+            <label for="16"><code class="shortCode">‘party!’</code></label><br>
+        </form>
+        <br />
+        <form>
+            <div>
+                <span style="font-weight:bold;">Câu 7:</span> Giá trị của <code class="shortCode">array</code> trong ví
+                dụ sau:
+                <pre class="longCode">
+                    <div style="margin-left: -100px; margin-top: 10px;">
+                    <span style="color:blue">const</span> array = [<span style="color:crimson">1</span>, <span style="color:crimson">2</span>, <span style="color:crimson">3</span>]
+                    <span style="color:blue">const</span> extension = [<span style="color:crimson">4</span>, <span style="color:crimson">5</span>, <span style="color:crimson">6</span>]
+
+                    array = <span style="color: gray;">[</span>...extension, ...array]
+                    </div>
+                </pre>
+            </div>
+            <input type="radio" id="17" name="ques_7">
+            <label for="17"><code class="shortCode">[1, 2, 3]</code></label><br>
+            <input type="radio" id="18" name="ques_7">
+            <label for="18"><code class="shortCode">[1, 2, 3, 4, 5, 6]</code></label><br>
+            <input class="True" type="radio" id="19" name="ques_7">
+            <label for="19"><code class="shortCode">[4, 5, 6, 1, 2, 3]</code></label><br>
+            <input type="radio" id="20" name="ques_7">
+            <label for="20"><code class="shortCode">Error</code></label><br>
+        </form>
+        <br />
+        <form>
+            <div>
+                <span style="font-weight:bold;">Câu 8:</span> Giá trị của a trong ví dụ sau?
+                <br />
+                <pre class="longCode">
+                    <div style="margin-left: -100px; margin-top: 10px;">
+                        <span style="color:blue">function</span> <span style="color:crimson">mystery</span>(...params) {
+                            <span style="color:blue">return</span> params
+                        }
+                        <span style="color:blue">let</span> a = mystery(1, 23, 4);
+                    </div>
+                </pre>
+            </div>
+            <input type="radio" id="21" name="ques_8">
+            <label for="21"><code class="shortCode">undefined</code></label><br>
+            <input class="True" type="radio" id="22" name="ques_8">
+            <label for="22"><code class="shortCode">[1, 23, 4]</code></label><br>
+            <input type="radio" id="23" name="ques_8">
+            <label for="23"><code class="shortCode">“1 23 4”</code></label><br>
+            <input type="radio" id="24" name="ques_8">
+            <label for="24"><code class="shortCode">1 23 4</code></label><br>
+        </form>
+        <br />
+        <form>
+            <div>
+                <span style="font-weight:bold;">Câu 9:</span> Giá trị của biểu thức sau?
+                <br />
+                <pre class="longCode">
+                    <div style="margin-left: -100px; margin-top: 10px;">
+                        <span style="color: gray">[...[..."..."]].</span>length
+                    </div>
+                </pre>
+            </div>
+            <input class="True" type="radio" id="25" name="ques_9">
+            <label for="25"><code class="shortCode">3</code></label><br>
+            <input type="radio" id="26" name="ques_9">
+            <label for="26"><code class="shortCode">6</code></label><br>
+            <input type="radio" id="27" name="ques_9">
+            <label for="27"><code class="shortCode">9</code></label><br>
+            <input type="radio" id="28" name="ques_9">
+            <label for="28"><code class="shortCode">Error</code></label><br>
+        </form>
+        <br />
+        <form>
+            <div>
+                <span style="font-weight:bold;">Câu 10:</span> Giá trị của a và b với ví dụ sau?
+                <br />
+                <pre class="longCode">
+                    <div style="margin-left: -100px; margin-top: 10px;">
+                        <span style="color:blue">let</span> a = <span style="color:crimson">12</span>, b = <span style="color:crimson">3</span>;
+                        <span style="color: gray">[</span>a, b<span style="color: gray">]</span> = <span style="color: gray">[</span>b, a<span style="color: gray">]</span>;
+                    </div>
+                </pre>
+            </div>
+            <input type="radio" id="29" name="ques_10">
+            <label for="29">a = 12, b = 3</label><br>
+            <input class="True" type="radio" id="30" name="ques_10">
+            <label for="30">a = 3, b = 12</label><br>
+            <input type="radio" id="31" name="ques_10">
+            <label for="31">a = 12, b = 12</label><br>
+            <input type="radio" id="32" name="ques_10">
+            <label for="32">a = 3, b = 3</label><br>
+        </form>
+        <br />
+        <form>
+            <div>
+                <span style="font-weight:bold;">Câu 11:</span> Giá trị của obj sau trong ví dụ sau?
+                <br />
+                <pre class="longCode">
+                    <div style="margin-left: -100px; margin-top: 10px;">
+                        <span style="color:blue">const</span> obj = <span style="color: gray">{</span>
+                            name: <span style="color:#690">"MindX"</span>
+                            <span style="color: gray">}</span>
+                        <span style="color:blue">const</span> <span style="color:crimson">sayHello</span> = <span style="color: gray">(</span>x<span style="color: gray">)</span> => <span style="color: gray">{</span>
+                            let <span style="color: gray">{</span>name<span style="color: gray">}</span> = x
+                          name = <span style="color:#690">"Code Intensive"</span>
+                          <span style="color: gray">}</span>
+                        <span style="color:crimson">sayHello</span><span style="color: gray">(</span>obj<span style="color: gray">)</span>
+                    </div>
+                </pre>
+            </div>
+            <input class="True" type="radio" id="33" name="ques_11">
+            <label for="33"><code class="shortCode">{name: “MindX”}</code></label><br>
+            <input type="radio" id="34" name="ques_11">
+            <label for="34"><code class="shortCode">{name: “Code Intensive”}</code></label><br>
+            <input type="radio" id="35" name="ques_11">
+            <label for="35"><code class="shortCode">Error</code></label><br>
+        </form>
+        <br />
+        <form>
+            <div>
+                <span style="font-weight:bold;">Câu 12:</span> Giá trị của biểu <code class="shortCode">array</code>
+                trong ví dụ sau?
+                <br />
+                <pre class="longCode">
+                    <div style="margin-left: -100px; margin-top: 10px;">
+                        <span style="color:blue">let</span> arr = <span style="color: gray">[</span>1, 2, 3, 4, 5<span style="color: gray">]</span>
+                        arr.<span style="color:crimson">map</span><span style="color: gray">(</span>item => <span style="color: gray">{</span>
+                        <span style="color:blue">if</span> <span style="color: gray">(</span>item <span style="color:crimson">% 2</span> === <span style="color:crimson">0</span><span style="color: gray">)</span> <span style="color: gray">{</span>
+		                <span style="color:blue">return</span> item;
+                        <span style="color: gray">}</span>
+	                    <span style="color:blue">return</span> item * <span style="color:crimson">2</span>;
+                        <span style="color: gray">})</span>
+                    </div>
+                </pre>
+            </div>
+            <input type="radio" id="37" name="ques_12">
+            <label for="37"><code class="shortCode">[1, 2, 3, 4, 5]</code></label><br>
+            <input class="True" type="radio" id="38" name="ques_12">
+            <label for="38"><code class="shortCode">[2, 2, 6, 4, 10]</code></label><br>
+            <input type="radio" id="39" name="ques_12">
+            <label for="39"><code class="shortCode">[2, 4, 6, 8, 10]</code></label><br>
+        </form>
+        <br />
+        <form>
+            <div>
+                <span style="font-weight:bold;">Câu 13:</span> Giá trị của <code class="shortCode">total</code> trong ví dụ sau?
+                <br />
+                <pre class="longCode">
+                    <div style="margin-left: -100px; margin-top: 10px;">
+                        <span style="color:blue">const</span> arr = [1, 2, 3, 4, 5]
+                        <span style="color:blue">const</span> total = arr.<span style="color:crimson">filter</span>(item => item <span style="color:crimson">% 2</span> === <span style="color:crimson">0</span>)
+				         .<span style="color:crimson">reduce</span>((value, item) => value + item , 10)
+                    </div>
+                </pre>
+            </div>
+            <input type="radio" id="40" name="ques_13">
+            <label for="40"><code class="shortCode">Error</code></label><br>
+            <input type="radio" id="41" name="ques_13">
+            <label for="41"><code class="shortCode">15</code></label><br>
+            <input type="radio" id="42" name="ques_13">
+            <label for="42"><code class="shortCode">6</code></label><br>
+            <input class="True" type="radio" id="43" name="ques_13">
+            <label for="43"><code class="shortCode">16</code></label><br>
+        </form>
+        <br />
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
